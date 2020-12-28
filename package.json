@@ -1,0 +1,14 @@
+{
+  "name": "TextLinter_GitHubActions_Test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "textlint --preset ja-technical-writing README.md"
+  },
+  "dependencies": {
+    "textlint": "^11.7.7",
+    "textlint-rule-preset-ja-technical-writing": "^4.0.1",
+    "textlint-rule-preset-jtf-style": "^2.3.6"
+  }
+}
